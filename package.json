@@ -9,7 +9,8 @@
     "build": "babel lib/ -d dist/ --source-maps",
     "eslint": "eslint src",
     "test": "istanbul cover node_modules/.bin/_mocha -- -u exports --compilers js:babel-register -R spec -r test/setup.js test/*{,*/}*.js",
-    "start": "nodemon --ignore dist/ --ignore node_modules/ --exec 'npm run eslint && npm run test && npm run build'"
+    "start": "nodemon --ignore dist/ --ignore node_modules/ --exec 'npm run eslint && npm run test && npm run build'",
+    "prepublish": "npm run eslint && npm run build"
   },
   "devDependencies": {
     "babel-cli": "^6.7.7",
