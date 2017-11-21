@@ -15,6 +15,7 @@
   "engines": {
     "node": ">=8.0.0"
   },
+  "engineStrict": true,
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^2.9.0",
