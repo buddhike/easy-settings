@@ -5,6 +5,9 @@
   "author": "buddyspike",
   "license": "MIT",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "eslint": "eslint --fix lib test",
     "test": "nyc node_modules/.bin/_mocha -- test/setup.js test/*{,*/}*.js"

@@ -1,3 +1,14 @@
 lib
 test
 coverage
+nyc_output
+.tmp
+.vscode
+dist
+.babelrc
+.editorconfig
+.eslintrc
+.gitignore
+.travis.yml
+Makefile
+
