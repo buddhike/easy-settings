@@ -10,3 +10,4 @@ deploy:
   on:
     tags: true
     repo: buddyspike/easy-settings
+    all_branches: true
