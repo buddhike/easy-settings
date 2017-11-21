@@ -2,3 +2,11 @@ language: node_js
 node_js:
 - '8.0'
 - '9.0'
+deploy:
+  provider: npm
+  email: buddhike.desilva@geeksdiary.com
+  api_key:
+    secure: mbTtZQRzBYTcx0UYfPHr334SkPrKE37yGFKx4XRL/K9jysWwV22tU6dSoco6FDiAUc8WhoCRsce1ATKJOz1mWi2X/nC2J899huEWyW6fbl/2jJ16B7ZxKBsTflJFy4jn/+LMv2YRTFAXNVhErZEnmOSBYZD/Q0Xwax6LVDUrAgJAwP3r+L749DgD6zRlAoW58efyhSKr2XOvphS83G6JIXuGHTN00st0R05dBmuGaqNeijcqmg04Ay9EPDNceGqOxPyG6luhW9vQCiTZrhEIcu6VUmsr2mS1L9R83/lQ39PU+PuSPvhDVsbdvUoejrDY0HGo85WqZcUqXNikNqhB6HrllPzCwXYt1rzV+LbDxCYYfMNpxMyjfh9u1OLQ1WoaKcm9WN1H2Ql3enLnLAjaE0VqtboAwXubNGjotcX0M/ciDi9/hZxOSivSjh5LqhNv3WxuyMUEBuB8cArGfLOUIoq18wK7Tv3VGyZ/2GkfXSv/pSyusLirrj8KrzMPJ1bOBCvMelko3Sg8bWnabm2FTvPgRiWafKL5EigNBAYBy17zPuquuSHs6Y+ub8PuEapN/Q1r6edaxKTe1eh1P4XJNuMQKt2oRL5d0xoo4MgYRAhJ5TqZb5dKZMrG5oytftS4728k91RfKftupRoKr/q3zd78V3iK/dQht3zhpqOfTFw=
+  on:
+    tags: true
+    repo: buddyspike/easy-settings

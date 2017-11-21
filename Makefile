@@ -5,4 +5,5 @@ test:
 	npm test
 
 build:
+	npm install
 	npm test
