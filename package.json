@@ -1,6 +1,6 @@
 {
   "name": "easy-settings",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple cascading configuration store.",
   "author": "buddyspike",
   "license": "MIT",
